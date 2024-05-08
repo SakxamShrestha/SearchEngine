@@ -1,3 +1,4 @@
+
 from settings import *
 import requests
 from requests.exceptions import RequestException
