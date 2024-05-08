@@ -1,6 +1,5 @@
 import sqlite3
 import pandas as pd
-
 class DBStorage():
     def __init__(self):
         self.con = sqlite3.connect('links.db')
