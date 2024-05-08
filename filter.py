@@ -20,7 +20,6 @@ def get_page_content(row):
     soup = BeautifulSoup(row["html"])
     page_text = soup.get_text()
     return page_text
-
 class Filter():
     def __init__(self, results):
         self.filtered = results.copy()
